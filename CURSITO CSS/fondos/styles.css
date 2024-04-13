@@ -1,0 +1,25 @@
+body {
+    background-color: #48e;
+    margin: 0;
+    font-family: sans-serif;
+}
+.box {
+    width: 100%;
+    height: 300px;
+    opacity: 1; 
+    background-image: url("https://images.pexels.com/photos/1619317/pexels-photo-1619317.jpeg?cs=srgb&dl=pexels-james-wheeler-1619317.jpg&fm=jpg");
+    /* background-color: #b1476d;  fondo*/
+    background-size: cover ;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.opaco {
+    width: 100%;
+    height: 100%;
+    background-color: #000a;
+    color: #fff;
+}
+h2 {
+    padding-top: 120px;
+    text-align: center;
+}

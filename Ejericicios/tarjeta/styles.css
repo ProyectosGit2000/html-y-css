@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: 'Source_Sans_3';
+}
+.contenedor-card {
+    width: 320px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 0 50px 0 #cdcdcd ;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.title-card 
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.subtitle-card {
+    font-size: 15px;
+    font-weight: 300;
+}
+.parrafo-card {
+    font-size: 16px;
+    font-weight: 600;
+}
+img {
+    width: 200px;
+    border-radius: 100%;
+}
+.container-imagenes img{
+    display: inline-block;
+    width: 50px;
+    margin-left: 18px;
+    margin-right: 18px;
+    background-image: url("https://png.pngtree.com/png-clipart/20201031/ourlarge/pngtree-light-red-circle-clipart-round-png-image_2382158.jpg");
+}

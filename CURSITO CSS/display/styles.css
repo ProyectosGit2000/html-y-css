@@ -1,0 +1,29 @@
+body {
+    font-family: 'calibri';
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #48e;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 10px;
+    background-color: #48e;
+}
+
+.nav__item:hover {
+    background-color: #59e;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+}

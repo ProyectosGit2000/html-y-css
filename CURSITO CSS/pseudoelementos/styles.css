@@ -1,0 +1,37 @@
+body {
+    background-color: #302f2f;
+    color: #fff;
+}
+* {
+    font-family: 'calibri';
+}
+div {
+    padding: 30px;
+    text-align: justify;
+}
+h1::first-letter {
+    color: #a52a2a;
+    font-size: 3em;
+    letter-spacing: -10px;
+}
+div::first-line {
+    color: #b32272;
+    font-weight: 600;
+}
+div::selection {
+    background-color: #6495ed;
+}
+input::placeholder {
+    color: #436e11;
+}
+li::marker {
+    color: #deb887;
+}
+li::before {
+    content: 'Elemento antes: ';
+    color: #4669aa;
+}
+li::after {
+    content: ' Elemento despues';
+    color: #cab123;;
+}

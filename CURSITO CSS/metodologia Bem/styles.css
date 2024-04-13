@@ -1,0 +1,23 @@
+body {
+    font-family: 'calibri';
+    background-color: #363636;
+    color: #fff;
+}
+.lista {
+    border: 2px solid #fff;
+}
+.lista__item {
+    color: #54cbdb;
+    margin: 10px 0;
+    list-style: square;
+}
+.item--danino {
+    color: #bb2c63;
+}
+.item--importante {
+    color: #1378ca;
+}
+.lista--vieja {
+    opacity: 0.3;
+    background-color: #ccc;
+}

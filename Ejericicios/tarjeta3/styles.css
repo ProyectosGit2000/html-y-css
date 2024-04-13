@@ -1,0 +1,32 @@
+body  {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #046d8b;
+    box-sizing: border-box;
+}
+.tarjeta {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #faf4e0;
+    border-radius: 15px;
+    padding-top: 0;
+}
+img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-attachment: fixed;
+}
+p
+{
+    padding: 20px ;
+    padding-bottom: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+h1 {
+    margin-bottom: 0;
+}

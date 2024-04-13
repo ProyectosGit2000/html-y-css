@@ -1,0 +1,47 @@
+* {
+    font-family: 'calibri';
+}
+section .elemento1, 
+section .elemento2, 
+section .elemento3 {
+    color: red;
+}
+/**?Modificando los elementos(1,2,3) dentro del grupo de alguna section*/
+section :is(.elemento1, .elemento2, .elemento3) {
+    color: blue;
+}
+/**
+    Si queremos q no cambie la especificidad, usamos where en lugar de is...
+*/
+
+/**?en caso de que el elemento padre tenga un (.elemento1) esto solo se le aplica al elemento padre*/
+section:has(.elemento1) {
+    color: #3f49cf;
+}   
+ul + div {
+    background-color: #000;
+}
+/**?en caso de que a un (ul) le siga un (div) modificamos el (ul)*/
+ul:has(+div) {
+    background-color: #5f9ea0;
+}
+/**?dandole estilos al input si es valido o invalido*/
+div {
+    margin: 60px;
+}
+label:has(input:valid), input:valid{
+    color: #006400;
+}
+label:has(input:invalid),input:invalid {
+    color: #a52a2a;
+}
+
+.contenedor {
+    margin: 100px;
+}
+
+.labels:has(input:focus) {
+    background-color: #3f49cf;
+}
+
+

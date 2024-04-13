@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario3x</title>
+</head>
+<body>
+    <form class="form-content">
+        <h1>Registro</h1>
+        <div class="div-input">
+            <input type="text" placeholder="Nombre">
+        </div>
+        <div class="div-input">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="div-input">
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="div-input">
+            <input list="lenguajes-programacion" type="text">
+            <datalist id="lenguajes-programacion">
+                <option value="Python">Lenguaje de inteligencia artificial</option>
+                <option value="JavaScript">Lenguaje de parte del frontend de una web</option>
+                <option value="Php">Lenguaje de lado del servidor</option>
+                <option value="React">Lenguaje de parte de Ajax y JS</option>
+            </datalist>
+        </div>
+        <div class="div-input">
+            <textarea placeholder="Ingresa un mensaje"></textarea>
+        </div>
+        <button>Suscribirte</button>
+    </form>
+</body>
+</html>

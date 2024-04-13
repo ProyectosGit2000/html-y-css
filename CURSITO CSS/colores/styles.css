@@ -1,0 +1,13 @@
+.caja {
+    padding: 20px 30px;
+    background: #fae1c0;
+    margin: auto;
+    /* margin-left: 50px; */
+    text-align: center;
+    color: #332d27;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border-top: 2px solid #85725f ;
+    font-weight: 700;
+}
+

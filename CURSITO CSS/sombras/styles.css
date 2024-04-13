@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #2f2f4d;
+}
+.box {
+    width: 400px;
+    background-color: #40ffdc;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 40px 0 #40ffdc;
+    padding: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+    color: #1c0021;
+    text-align: center;
+}
+h2
+{
+    text-shadow: 0 0 5px #f88;
+    text-align: center;
+}
+p
+{
+    list-style: none;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 14px;
+    text-shadow: 0 0 5px #f88;
+    font-weight: 500;
+}
+img {
+    width: 200px;
+    border-radius: 100%;
+    margin: auto;
+}

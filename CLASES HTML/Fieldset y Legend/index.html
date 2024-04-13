@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fieldset y Legend</title>
+</head>
+<body>
+    <form>
+        <h2>Formulario de Contacto</h2>
+        <!--SIMPLE INPUT-->
+        <fieldset>
+            <legend>Imformacion Basica</legend>
+            <div class="form-input">
+                <label for="nombre">Nombre Completo
+                    <input id="nombre" type="text" placeholder="Jhon Doe">
+                </label>
+            </div>
+            <div class="form-input">
+                <label for="email">Email
+                    <input id="email" type="email" placeholder="ejemplo@gmail.com">
+                </label>
+            </div>
+            <div class="form-input">
+                <label for="nombre">Asunto
+                    <input id="nombre" type="text" placeholder="Asunto a escribir...">
+                </label>
+            </div>
+        </fieldset> 
+        <fieldset>
+            <legend>Select& Option</legend>
+            <div class="form-input">
+                <label for="select">Tipo de Usuario
+                    <select id="select" name="type-of-user">
+                        <option value="user1">Elegir...</option>
+                        <option value="user1">Programador</option>
+                        <option value="user2">Diseñador</option>
+                        <option value="user3">Maquetador</option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Datalist & Option</legend>
+            <div class="form-input">
+                <label>Referente
+                    <input list="referente">       
+                    <datalist id="referente">
+                        <option value="Youtube">Creador y contenedo de Videos</option>
+                        <option value="Anuncios">A travez de publicidad y/o tarjetas</option>
+                        <option value="Amigo">Me lo recomendo un amigo</option>
+                    </datalist>
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>TexArea</legend>
+            <div class="form-input">
+                <label for="mensaje">Mensaje
+                    <textarea id="mensaje" placeholder="Deja un mensaje..."></textarea>
+                </label>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

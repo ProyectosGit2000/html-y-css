@@ -1,0 +1,20 @@
+/*Selector por atributo => "$"(termina por eso), "^" (empieza con eso)*/
+img[src^="saturno"] {
+    width: 100%;
+} 
+/*Selector descendiente*/
+ul li {
+    color: gray;
+}
+/*Selector por Hijo directo ">"*/
+li > em{ 
+    color: orangered;
+}
+/*Selector adyancente(selector que sigue despues del primero solamente ese)*/
+h1 + p {
+    color: blue ;
+}
+/*Selector de hermanos generales (todos los elementos q le siguen despues del primer selector)*/
+h1 ~ p {
+    color: pink;
+}
