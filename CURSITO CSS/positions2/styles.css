@@ -1,0 +1,38 @@
+body {
+    font-family: 'calibri';
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenedor {
+    padding: 150px;
+    background-color: #7fffd4;
+    position: relative;
+}
+.box {
+    width: 300px;
+    height: 80px;
+    background-color: #a52a2a;
+    position: fixed;
+    right: 0;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-right: 0;
+    box-shadow: 0 0 40 #0009;
+    text-align: center;
+}
+.box__title {
+    margin: 0;
+    font-size: 18px;
+}
+.box__parrafo {
+    margin: 0;
+    font-size: 18px;
+}
+.box-fixed {
+    height: 60px;
+    width: 100%;
+    background-color: #ffe4c4;
+    position: sticky;
+    box-sizing: border-box;
+    top: 0;
+}

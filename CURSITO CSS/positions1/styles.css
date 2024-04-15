@@ -1,0 +1,30 @@
+body {
+    font-family: 'calibri';
+    margin: 0;
+    background-color: #5e5e5e;
+}
+.contenedor {
+    border: 2px solid #000;
+    margin: 30px 180px;
+    background-color: #c0bfbf;
+    position: relative;
+}
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: #ca6;
+    color: #fff;
+    /*position: relative; /*?Propiedad q nos permite mover la caja conservando su posicion*/
+}
+.box--blue {
+    background-color: #37d;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+.box--green {
+    background-color: #e53;
+}

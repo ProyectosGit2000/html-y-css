@@ -1,0 +1,22 @@
+body {
+    font-family: 'calibri';
+    margin: 0;
+    box-sizing: border-box;
+}
+.modal {
+    position: absolute;
+    background-color: #0009;
+    width: 100vw;
+    height: 100vh;
+}
+.modal__content {
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+.modal__title {
+    margin-top: 10px;
+}
