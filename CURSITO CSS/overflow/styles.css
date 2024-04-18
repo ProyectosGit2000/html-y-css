@@ -1,0 +1,19 @@
+body {
+    font-family: 'calibri';
+    margin: 0;
+    background-color: #9a9a9a;
+}
+.box {
+    width: 220px;
+    height: 220px;
+    background-color: #fff;
+    color: red;
+    position: relative;
+    left: 0;
+    border: 2px solid #0009;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+    box-sizing: border-box;
+    overflow: auto;
+}

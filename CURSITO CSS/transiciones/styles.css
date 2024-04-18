@@ -1,0 +1,21 @@
+body {
+    font-family: 'calibri';
+    margin: 0;
+    height: 100vh;
+    background-color: #3f3f3f;
+}
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: #f06f6b;
+    margin-top: 50px;
+    transition-property: left;
+    transition-duration: 1s;
+    transition-timing-function: ease-out; /*curva de animacion*/
+    color: #f00;
+    position: relative;
+    left: 0;
+}
+body:hover .box {
+    left: 500px;
+}
