@@ -1,0 +1,24 @@
+body {
+    font-family: 'calibri';
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #466067;
+}
+.flex-item {
+    width: 100px;
+    /* height: 60px; */
+    background-color: #2790b0;
+    margin: 10px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+.flex-item:first-child {
+    background-color: #72bab0;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    /*direction: rtl; /*direccion del texto*/
+    flex-wrap: wrap-reverse;
+}

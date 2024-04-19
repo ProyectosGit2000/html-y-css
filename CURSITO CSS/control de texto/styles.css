@@ -1,0 +1,22 @@
+body {
+    font-family: 'calibri';
+    margin: 0;
+    background-color: #bbb;
+}
+.box {
+    width: 250px;
+    height: 270px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    border: 1px solid #0006;
+    white-space: normal; /**(wrap(permite desboramiento), nowrap("no abra saltos de linea"), pre(nos permite ajustar el texto a nuestro gusto como los saltos de linea...), pre-wrap(se ajusta el contenido y respeta los saltos que le doy)*/
+    /*text-overflow: ellipsis; /**para acortar el texto con puntos suspensivos*/
+    /* overflow: hidden; */
+    /*word-break: break-all; /*recorta palabras*/
+    word-wrap: anywhere; /*si la palabra es larga la rompe y si no es larga la tira para abajo*/
+    text-wrap: pretty; /*para balancer parrafos*/
+}   
+h1 {
+    /*text-wrap: balance; /*balancea el texto para que no se vea tan feo*/
+}
