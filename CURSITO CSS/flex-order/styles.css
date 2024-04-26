@@ -2,51 +2,51 @@ body {
     font-family: 'calibri';
     box-sizing: border-box;
     margin: 0;
-    background-color: #283747;
+    background-color: #ccc;
 }
-
 .flexbox {
-    /*direction: ltr; /*direcion*/
     display: flex;
-    height: 100vh;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-flow: row wrap; /*2 propiedades en una */
+    flex-flow: row wrap; 
+    border: 2px solid #000;
+    margin: 50px;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
 }
-
 .flex-item {
-    width: 130px;
     background-color: #2790b0;
-    margin: 10px;
     color: #fff;
     font-size: 40px;
     text-align: center;
+    width: 100px;
+    order: 3;
 }
-
 .color--1 {
-    background-color: #f0f0af;
+    background-color: #f2b8a0;
+    order: 1;
 }
-
 .color--2 {
     background-color: #538a95;    
 }
-
 .color--3 {
     background-color: #67b79e;
+    order: 2;
 }
-
 .color--4 {
     background-color: #ffb727;
 }
-
 .color--5 {
     background-color: #e4491c;
 }
-
 .color--6 {
     background-color: #92b35a;
 }   
-
 .color--7 {
     background-color: #855f30;
+}
+.color--12 {
+    box-sizing: border-box;
+    background-color: #7fff00;
+    /* font-size: 80px; */
 }

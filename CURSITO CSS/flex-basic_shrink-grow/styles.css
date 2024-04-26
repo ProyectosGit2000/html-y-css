@@ -1,0 +1,42 @@
+body {
+    font-family: 'calibri';
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #ccc;
+}
+.flexbox {
+    display: flex;
+    flex-flow: row wrap; 
+    border: 2px solid #000;
+    margin: 50px;
+    /* height: 100px; */
+    justify-content: start;
+    align-items: center;
+    background-color: #fff;
+    gap: 2px;
+}
+.flex-item {
+    background-color: #2790b0;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    direction: rtl;
+    /* width: 200px; */
+    flex-grow: 1; /*?determina los espacios disponibles para rellenar */
+    flex-basis: 100px; /*?determina hasta q punto se encojera y el ancho del la cajita*/
+}
+.color--1 {
+    background-color: #f2b8a0; 
+    flex-shrink: 3; /*?determina el tamaño del encojimiento o tamaño de la caja (3veces mas, 0 no encoja nada, 1 encoja)*/
+}
+.color--2 {
+    background-color: #538a95;
+    flex-shrink: 3;
+}
+.color--3 {
+    background-color: #67b79e;
+    flex-shrink: 3;
+}
+.color--4 {
+    background-color: #ffb727;
+}

@@ -1,0 +1,162 @@
+body {
+    font-family: 'calibri';
+    box-sizing: border-box;
+    margin: 0;
+    color: #fff;
+    background-color: #f84600;
+}
+div, header, nav, ul, h1, h2, p, img {
+    box-sizing: border-box;
+}
+/*----------------------HEADER SECTION----------------------*/
+.header {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url(todo-nutella.jpg);
+    display: flex;
+    background-size: cover;
+}
+h1 {
+    margin: 0;
+    font-size: 80px;
+    text-wrap: balance;
+}
+.header__overlay {
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: #8B5A2B;
+    opacity:.8;
+    position: absolute;
+    z-index: 1;
+}
+.header__item-container {
+    z-index: 10;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    max-width: 1200px;
+    font-size: 25px;
+}
+.header__item-container p {
+    text-wrap: pretty;
+}
+.header__img {
+    min-width: 200px;
+    max-width: 20%;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 40px;
+}
+/*----------------------NAVBAR SECTION----------------------*/
+.nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    flex-wrap: wrap;
+    padding: 8px 20px ;
+}
+.nav__ul {
+    margin: 0;
+    display: flex; /*?para colocar uno al lado del otro*/
+    justify-content: center;
+}
+.nav__item {
+    list-style: none;
+}
+.nav__links {
+    color: #8B5A2B;
+    text-decoration: none;
+    display: inline-block;
+    /* margin: 6px; */
+    font-weight: 600;
+    padding: 10px;
+    transition:  background-color 0.24s, border-radius 0.2s, outline 0.2s, outline-offset 0.2s;
+    font-size: 1.5em;
+    margin: 2px;
+    outline: 0;
+    outline-offset: 0;
+}
+.nav__logo {
+    width: 100px;
+}
+.nav__links:hover {
+    background-color: #c99d73;
+    color: #fff;
+    border-radius: 20px;
+    outline: 2px solid #a97c52;
+    outline-offset: -7px;
+}
+.link--login {
+    background-color: #8B5A2B;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-left: 6px;
+}
+.link--login:hover {
+    background-color: #b61;
+    outline: none;
+}
+.nav__ul-container {
+    flex-grow: 4;
+}
+.nav__img-container {
+    flex-grow: 1;
+}
+.nav__logo-container, .nav__ul-container {
+    text-align: center;
+}
+
+/*------------------ MAIN NUTELLA---------------------*/
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.titulo__main {
+    color: #fff;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.titulo__main:hover {
+    color: #fff;
+    text-shadow: 0 0 25px #fff;
+}
+.parrafo__main {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-wrap: pretty;
+    text-align: justify;
+    margin: 25px;
+}
+.nutella-image {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 400px;
+    margin: auto;
+    border: 10px solid #fff;
+    border-radius: 15px ;
+}
+.nutella-image img {
+    max-width: 100%;
+    height: auto;
+}
+.quote {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+}
